@@ -1,0 +1,28 @@
+.footer {
+    background-color: var(--dark-color);
+    color: white;
+}
+
+.footer h5 {
+    margin-bottom: 20px;
+    color: var(--primary-color);
+}
+
+.footer a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: var(--primary-color);
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li i {
+    margin-right: 10px;
+    color: var(--secondary-color);
+}

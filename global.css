@@ -1,0 +1,40 @@
+:root {
+    --primary-color: #ff6b6b;
+    --secondary-color: #4ecdc4;
+    --dark-color: #2d3436;
+    --light-color: #f9f9f9;
+    --gray-color: #636e72;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--dark-color);
+    background-color: var(--light-color);
+    overflow-x: hidden;
+    background-color: #2d3436;
+}
+#workouts {
+  padding: 60px 20px;
+}
+
+#workouts .card {
+  margin-bottom: 30px;
+}
+
+footer {
+  background: #333;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
