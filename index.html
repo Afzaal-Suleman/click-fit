@@ -1,34 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Click Fit</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-   <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css"/>
-  <link rel="stylesheet" href="global.css">
-  <link rel="stylesheet" href="style/loadingScreen.css">
-  <link rel="stylesheet" href="style/hero.css">
-  <link rel="stylesheet" href="style/navbar.css">
-  <link rel="stylesheet" href="style/footer.css">
-  <link rel="stylesheet" href="style/resposive.css">
-  <link rel="stylesheet" href="style/equipment.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Click Fit</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css"
+    />
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="style/loadingScreen.css" />
+    <link rel="stylesheet" href="style/hero.css" />
+    <link rel="stylesheet" href="style/navbar.css" />
+    <link rel="stylesheet" href="style/footer.css" />
+    <link rel="stylesheet" href="style/resposive.css" />
+    <link rel="stylesheet" href="style/equipment.css" />
+    <link rel="stylesheet" href="style/progressImage.css" />
+  </head>
+  <body>
+    <div id="loadingScreen"></div>
+    <div id="mainContent" style="display: none">
+      <div id="navbar"></div>
+      <div id="hero"></div>
+      <div id="equipment"></div>
+      <div id="progressImage"></div>
+      <div id="footer"></div>
+    </div>
 
-  <div id="loadingScreen"></div>
-  <div id="mainContent" style="display:none;">
-    <div id="navbar"></div>
-    <div id="hero"></div>
-    <div id="equipment"></div>
-    <div id="workouts"></div>
-    <div id="footer"></div>
-  </div>
-
-  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-  <script src="action/componentReuse.js"></script>
-  <script src="action/equipment.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="action/componentReuse.js"></script>
+    <script src="action/equipment.js"></script>
+    <script src="action/progressImage.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
