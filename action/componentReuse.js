@@ -20,5 +20,5 @@ loadComponent("loadingScreen", "components/loadingScreen.html", function() {
 loadComponent("navbar", "components/navbar.html");
 loadComponent("hero", "components/hero.html");
 loadComponent("equipment", "components/equipment.html");
-loadComponent("workouts", "components/workouts.html");
+loadComponent("progressImage", "components/progressImage.html");
 loadComponent("footer", "components/footer.html");
