@@ -38,13 +38,12 @@ $(document).ready(function () {
                             ${item.data.price ? `<p><strong>Price:</strong> $${item.data.price}</p>` : ''}
                             ${item.data.generation ? `<p><strong>Generation:</strong> ${item.data.generation}</p>` : ''}
                         ` : `<p><strong>ID:</strong> ${item.id}</p>`}
-                        <span class="badge">API Item</span>
                     </div>
                 </div>
             `;
         });
 
-        $('#apiData').html(html);      
+        $('#apiData').html(html);
     }
 
     loadAPIData();
